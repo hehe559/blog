@@ -1,0 +1,44 @@
+#navbar{
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    .content{
+        margin: 0 10px;
+        height: 100%;
+        .ionic{
+            float: left;
+            line-height: 60px;
+            width: 180px;
+            text-align: center;
+            cursor:pointer;
+        }
+        .nav{
+            float: right;
+            width: 320px;
+            li{
+                width: 80px;
+                float: left;
+                line-height: 60px;
+                text-align: center;
+                list-style:none;
+                a{
+                    cursor:pointer;
+                }
+            }
+        }
+    }
+}
+#header{
+    width: 100%;
+    height: 400px;
+    background-color: palegoldenrod;
+    .content{
+        width: 1200px;
+        height: 100%;
+        margin: 0 auto;
+        background-color: paleturquoise;
+    }
+}
