@@ -1,24 +1,50 @@
 <nav id="navbar">
   <div class="content">
-    <div class="ionic">shouye</div>
+    <div class="ionic">
+      <div class="circular">
+          <i class="fa fa-anchor"></i>
+      </div>
+    </div>
     <div class="nav">
       <ul>
         <li>
+          <i class="fa fa-home"></i>
           <a>Home</a>
         </li>
         <li>
+          <i class="fa fa-user"></i>
           <a>About</a>
         </li>
         <li>
+          <i class="fa fa-photo"></i>
           <a>Portfolio</a>
         </li>
         <li>
+          <i class="fa fa-tags"></i>
           <a>Tags</a>
         </li>
       </ul>
     </div>
+    <div class="menu">
+      <nz-dropdown [nzTrigger]="'click'" [nzPlacement]="'bottomRight'">
+        <a nz-dropdown> 
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+        <ul nz-menu>
+          <li nz-menu-item>Home</li>
+          <li nz-menu-item>About</li>
+          <li nz-menu-item>Portfolio</li>
+          <li nz-menu-item>Tags</li>
+        </ul>
+      </nz-dropdown>
+    </div>
   </div>
 </nav>
 <header id="header">
+  <img class="img" src="../../../assets/imgs/img.jpg" alt="Craft">
   <div class="content"></div>
 </header>
+<!-- <nz-spin></nz-spin> -->
