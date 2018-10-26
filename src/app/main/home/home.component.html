@@ -1,7 +1,7 @@
 <nav id="navbar">
   <div class="content">
     <div class="ionic">
-      <div class="circular">
+      <div class="circular" [class.tade]="iconStatus" (click)="iconClick()">
           <i class="fa fa-anchor"></i>
       </div>
     </div>
@@ -45,6 +45,60 @@
 </nav>
 <header id="header">
   <img class="img" src="../../../assets/imgs/img.jpg" alt="Craft">
-  <div class="content"></div>
+  <div class="content">
+    <div class="text">
+      <h2>HomeHomeHome</h2>
+      <h2>HomeHomeHomeHomeHomeHome</h2>
+    </div>
+  </div>
+  <div class="whalebox" [class.whale]="iconStatus"></div>
 </header>
-<!-- <nz-spin></nz-spin> -->
+<div id="content">
+  <div nz-row>
+    <div class="left-box" nz-col [nzLg]="{ span: 16, offset: 2 }" [nzMd]="{ span: 16, offset: 2 }" [nzXs]="{ span: 24, offset: 0 }"  [nzSm]="{ span: 24, offset: 0 }">
+      <div class="post-preview">
+        <a>
+          <h2 class="post-title">css3动画常用动画总结</h2>  
+          <h3 class="post-subtitle">Learning summary</h3>  
+          <div class="post-content-preview">
+            前言
+            这篇文章是我第一次写博客，尝试一下。这篇文章是我第一次写博客，尝试一下。这篇文章是我第一次写博客，尝试一下。
+            这篇文章是我第一次写博客，尝试一下。这篇文章是我第一次写博客，尝试一下。这篇文章是我第一次写博客，尝试一下。动这篇文章是我第一次写博客，尝试一下。这篇文章是我第一次写博客，尝试一下。
+            这篇文章是我第一次写博客，尝试一下。这篇文章是我第一次写博客，尝试一下。。...
+          </div>
+        </a>
+        <p class="post-meta">Posted by Hehe559 on October 14, 2018</p>
+      </div>
+      <hr>
+      <div class="post-preview">
+        <a>
+          <h2 class="post-title">css3动画常用动画总结</h2>  
+          <h3 class="post-subtitle">Learning summary</h3>  
+          <div class="post-content-preview">
+            前言
+            这篇文章是我第一次写博客，尝试一下。这篇文章是我第一次写博客，尝试一下。这篇文章是我第一次写博客，尝试一下。
+            这篇文章是我第一次写博客，尝试一下。这篇文章是我第一次写博客，尝试一下。这篇文章是我第一次写博客，尝试一下。动这篇文章是我第一次写博客，尝试一下。这篇文章是我第一次写博客，尝试一下。
+            这篇文章是我第一次写博客，尝试一下。这篇文章是我第一次写博客，尝试一下。。...
+          </div>
+        </a>
+        <p class="post-meta">Posted by Hehe559 on October 14, 2018</p>
+      </div>
+      <hr>
+      <div class="post-preview">
+        <a>
+          <h2 class="post-title">css3动画常用动画总结</h2>  
+          <h3 class="post-subtitle">Learning summary</h3>  
+          <div class="post-content-preview">
+            前言
+            这篇文章是我第一次写博客，尝试一下。这篇文章是我第一次写博客，尝试一下。这篇文章是我第一次写博客，尝试一下。
+            这篇文章是我第一次写博客，尝试一下。这篇文章是我第一次写博客，尝试一下。这篇文章是我第一次写博客，尝试一下。动这篇文章是我第一次写博客，尝试一下。这篇文章是我第一次写博客，尝试一下。
+            这篇文章是我第一次写博客，尝试一下。这篇文章是我第一次写博客，尝试一下。。...
+          </div>
+        </a>
+        <p class="post-meta">Posted by Hehe559 on October 14, 2018</p>
+      </div>
+      <hr>
+    </div>
+    <div class="rihgt-box" nz-col [nzLg]="{ span: 6 }" [nzMd]="{ span: 6 }" [nzXs]="{ span: 0 }"  [nzSm]="{ span: 0 }">fff</div>
+  </div>
+</div>
