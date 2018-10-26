@@ -146,6 +146,9 @@
             border-top: 1px solid #eee;
         }   
     }
+    .rihgt-box{
+        overflow: hidden;
+    }
 }
 
 .tade{
@@ -177,15 +180,15 @@
 @-moz-keyframes whale{
     0%{top: 100%;left:100%;}
     25%{top: 75%;left: 75%;}
-    50%{top: 45%;left: 50;}
-    75%{top: 75%;left: 0%;}
-    100%{top: 100%;left: -50%;}
+    50%{top: 35%;left: 50;}
+    75%{top: 75%;left: 0%;-moz-transform:rotate(-25deg);}
+    100%{top: 100%;left: -50%;-moz-transform:rotate(-65deg);}
 }
 
 @-webkit-keyframes whale{
     0%{top: 100%;left:100%;}
     25%{top: 75%;left: 75%;}
-    50%{top: 45%;left: 50;}
-    75%{top: 75%;left: 0%;}
-    100%{top: 100%;left: -50%;}
+    50%{top: 35%;left: 50;}
+    75%{top: 75%;left: 0%;-webkit-transform:rotate(-25deg);}
+    100%{top: 100%;left: -50%;-webkit-transform:rotate(-65deg);}
 }
