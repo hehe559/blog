@@ -25,10 +25,6 @@
                 color: #ccc;
                 cursor:pointer;
             }
-            // .circular:hover{
-            //     -webkit-animation: tada 1s linear .2s infinite;
-            //     -moz-animation: tada 1s linear .2s infinite;
-            // }
         }
         .nav{
             float: right;
@@ -148,6 +144,32 @@
     }
     .rihgt-box{
         overflow: hidden;
+        hr{
+            margin: 20px 0;
+            border: 0;
+            border-top: 1px solid #eee;
+        }
+        .first-hr{
+            margin-top: 0px;
+        } 
+        .tags-title{
+            font-size: 16px;
+            color: gray;
+            font-weight: 700;
+        }
+        .tags{
+            margin-top: 20px;
+            a{
+                border-radius: 16px;
+                font-size: 12px;
+                margin-bottom: 6px;
+                margin-right: 5px;
+                border: 1px solid #cccc;
+                padding: 2px 16px;
+                color: #ccc;
+                display: inline-block;
+            }
+        }
     }
 }
 
