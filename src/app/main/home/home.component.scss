@@ -104,7 +104,6 @@
 }
 #content{
     width: 1200px;
-    height: 600px;
     padding: 0px 15px;
     margin: 0 auto;
     .left-box{
@@ -140,6 +139,18 @@
             margin: 20px 0;
             border: 0;
             border-top: 1px solid #eee;
+        }
+        .pager{
+            margin-top: 20px;
+            a{
+                float: right;
+                color: #404040;
+                font-size: 14px;
+                padding: 15px 25px;
+                border: 1px solid #ddd;
+                font-weight: 800;
+                line-height: 1.7;
+            }
         }   
     }
     .rihgt-box{
@@ -169,7 +180,31 @@
                 color: #ccc;
                 display: inline-block;
             }
+            .img{
+                width: 195px;
+                height: 195px;
+                background-color: #a3a3a3;
+                background-size: 100%;
+                background-image: url("/assets/imgs/whale.png");
+                background-repeat: no-repeat;
+                background-position:center center;
+                border-radius: 4px;
+            }
+            .introduce{
+                margin-top: 20px;
+                font-size: 14px;
+                color: #bfbfbf;
+            }
         }
+    }
+}
+#footer{
+    padding: 50px 0 65px;
+    text-align: center;
+    a{
+        text-align: center;
+        color: #777;
+        font-size: 14px;
     }
 }
 
