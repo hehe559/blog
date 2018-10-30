@@ -6,11 +6,10 @@ import { routes } from './main-routing';
 import { HomeComponent } from './home/home.component';
 import { NgZorroAntdModule } from 'ng-zorro-antd';
 
-
 @NgModule({
   declarations: [
     MainComponent,
-    HomeComponent,
+    HomeComponent
   ],
   imports: [
     NgZorroAntdModule,
