@@ -34,8 +34,8 @@
             <span></span>
           </a>
           <ul nz-menu>
-            <li nz-menu-item>Home</li>
-            <li nz-menu-item>About</li>
+            <li nz-menu-item (click)="go('/main/home')">Home</li>
+            <li nz-menu-item (click)="go('/main/about')">About</li>
             <li nz-menu-item>Portfolio</li>
             <li nz-menu-item>Tags</li>
           </ul>
@@ -46,7 +46,7 @@
   <header id="header">
     <img class="img" src="../../../assets/imgs/img.jpg" alt="Craft">
     <div class="content">
-      <div class="text">
+      <div class="text text-down">
         <h2 class="zw-font-01">One small step every day,</h2>
         <h2 class="zw-font-01">one big step in life.</h2>
       </div>
@@ -61,7 +61,7 @@
       <div class="rihgt-box" nz-col [nzXl]="{ span: 4 }" [nzSm]="{ span: 24 }">
         <div>
           <hr class="first-hr">
-          <div class="tags-title">
+          <div class="tags-title zw-cursor-d">
             FEATURED TAGS
           </div>
           <div class="tags">
@@ -72,19 +72,19 @@
             <a>其他</a>
           </div>
           <hr>
-          <div class="tags-title">
+          <div class="tags-title zw-cursor-d">
             ABOUT ME
           </div>
           <div class="tags">
             <div class="img" [class.tade]="iconStatus" (click)="iconClick()"></div>
-            <p class="introduce">善于学习，思维敏捷，勤奋上进，不拘小节，人见人爱，花见花开，呵呵</p>
+            <p class="introduce zw-cursor-d">善于学习，思维敏捷，勤奋上进，不拘小节，人见人爱，花见花开，呵呵</p>
           </div>
           <hr>
-          <div class="tags-title">
+          <div class="tags-title zw-cursor-d">
             Hobby
           </div>
           <div class="tags">
-            <p class="introduce">读书，下棋，电影，美食</p>
+            <p class="introduce zw-cursor-d">读书，下棋，电影，美食</p>
           </div>
         </div>
       </div>
