@@ -5,11 +5,13 @@ import { MainComponent } from './main.component';
 import { routes } from './main-routing';
 import { HomeComponent } from './home/home.component';
 import { NgZorroAntdModule } from 'ng-zorro-antd';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
     MainComponent,
-    HomeComponent
+    HomeComponent,
+    AboutComponent
   ],
   imports: [
     NgZorroAntdModule,

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-main',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainComponent implements OnInit {
   iconStatus = false;
-  constructor() { }
+  constructor(private router:Router) { }
 
   ngOnInit() {
   }
@@ -18,6 +19,10 @@ export class MainComponent implements OnInit {
     setTimeout(()=>{
       this.iconStatus = false;
     },2200)
+  }
+
+  go(key){
+    this.router.navigateByUrl(key);
   }
 
 }
