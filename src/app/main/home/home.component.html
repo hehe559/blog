@@ -127,7 +127,7 @@
       </div>
       <hr>
       <div class="pager">
-        <a>Older Posts →</a>
+        <a>next page →</a>
       </div>
     </div>
     <div class="rihgt-box" nz-col [nzXl]="{ span: 4 }" [nzSm]="{ span: 24 }">
@@ -148,15 +148,15 @@
           ABOUT ME
         </div>
         <div class="tags">
-          <div class="img"></div>
-          <p class="introduce">这篇文章是我第一次写博客，尝试一下。这篇</p>
+          <div class="img" [class.tade]="iconStatus" (click)="iconClick()"></div>
+          <p class="introduce">善于学习，思维敏捷，勤奋上进，不拘小节，人见人爱，花见花开，呵呵</p>
         </div>
         <hr>
         <div class="tags-title">
           Hobby
         </div>
         <div class="tags">
-          <p class="introduce">这篇文章是我第一次写博客，尝试一下。这篇</p>
+          <p class="introduce">读书，下棋，电影，美食</p>
         </div>
       </div>
     </div>

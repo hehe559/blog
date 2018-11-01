@@ -28,7 +28,7 @@
         }
         .nav{
             float: right;
-            width: 320px;
+            width: 350px;
             i{
                 margin-right: 5px;
                 color: cornflowerblue;
@@ -41,6 +41,7 @@
                 list-style:none;
                 a{
                     cursor:pointer;
+                    font-weight: 700;
                 }
             }
         }
@@ -151,11 +152,15 @@
                 border: 1px solid #ddd;
                 font-weight: 800;
                 line-height: 1.7;
+                text-transform: uppercase;
+                &:hover{
+                    color:white;
+                    background-color: #337ab7;
+                }
             }
         }   
     }
     .rihgt-box{
-        overflow: hidden;
         hr{
             margin: 20px 0;
             border: 0;
@@ -180,6 +185,11 @@
                 padding: 2px 16px;
                 color: #ccc;
                 display: inline-block;
+                &:hover{
+                    color: white;
+                    background-color: #337ab7;
+                    border: 1px solid #0d65b3;
+                }
             }
             .img{
                 width: 195px;
