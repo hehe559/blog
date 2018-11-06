@@ -33,19 +33,23 @@
         .nav{
             float: right;
             width: 350px;
-            i{
-                margin-right: 5px;
-                color: cornflowerblue;
-            }
             li{
                 padding: 0px 10px;
                 float: left;
                 line-height: 60px;
                 text-align: center;
                 list-style:none;
+                i{
+                    font-size: 16px;
+                    margin-right: 5px;
+                    color: cornflowerblue; 
+                }
                 a{
                     cursor:pointer;
                     font-weight: 700;
+                    font-family: Lora,'Times New Roman',serif;
+                    font-size: 16px;
+                    font-style: italic;
                 }
             }
         }
