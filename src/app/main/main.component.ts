@@ -12,7 +12,8 @@ export class MainComponent implements OnInit {
   constructor(private router:Router) { }
 
   ngOnInit() {
-    this.start(); 
+    this.start();
+    this.sugar();
   }
 
   iconClick(){
@@ -28,11 +29,22 @@ export class MainComponent implements OnInit {
   }
 
   start(){
-    $('body').jstars({
+    $('#header').jstars({
       image_path: '/assets/jquery-stars/imgs',
-      style: 'blue',     
+      style: 'white',     
       frequency: 19,
       delay: 300
+    });      
+  }
+
+  sugar(){
+    $('#content').jstars({
+      image_path: '/assets/jquery-stars/imgs',
+      image: 'candy-cane-stars.png',
+      width: 34,
+      height: 34,
+      delay: 700,
+      frequency: 5
     });      
   }
 

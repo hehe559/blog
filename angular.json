@@ -37,10 +37,14 @@
               "src/styles.scss"
             ],
             "scripts": [
-              "node_modules/jquery/dist/jquery.min.js",
+              "src/assets/jquery-stars/jquery-1.11.0.min.js",
+              "src/assets/jquery-stars/highlight.min.js",
+              "src/assets/jquery-stars/jquery-stars.js",
+              "src/assets/jquery-stars/smothscrool.js",
+              "src/assets/jquery-stars/jquery.main.js",
+              //"node_modules/jquery/dist/jquery.min.js",
               "node_modules/jquery-mousewheel/jquery.mousewheel.js",
-              "node_modules/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js",
-              "src/assets/jquery-stars/jquery-stars.js"
+              "node_modules/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"
             ]
           },
           "configurations": {
