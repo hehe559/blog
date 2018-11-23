@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { RouterModule,PreloadAllModules } from '@angular/router';
+import { RouterModule, PreloadAllModules } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { routes } from './app-routing';
@@ -24,8 +24,9 @@ registerLocaleData(zh);
   imports: [
     BrowserModule,
     MainModule,
-    RouterModule.forRoot(routes,{
-      useHash : true
+    RouterModule.forRoot(routes, {
+      useHash: true,
+      //preloadingStrategy:PreloadAllModules
     }),
     BrowserAnimationsModule,
     FormsModule,

@@ -233,19 +233,19 @@
 }
 
 @-moz-keyframes text-down{
-    0%{top: 25%;}
+    0%{top: 25%;-moz-transform:scale(0.3)}
     20%{top: 50%;}
     40%{top: 80%;}
-    60%{top: 50%;}
+    60%{top: 50%;-moz-transform:scale(0.8)}
     80%{top: 20%;}
     100%{top: 50%;}
 }
 
 @-webkit-keyframes text-down{
-    0%{top: 25%;}
+    0%{top: 25%;-webkit-transform:scale(0.3)}
     20%{top: 50%;}
     40%{top: 80%;}
-    60%{top: 50%;}
+    60%{top: 50%;-webkit-transform:scale(0.8)}
     80%{top: 20%;}
     100%{top: 50%;}
 }
